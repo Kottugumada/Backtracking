@@ -12,7 +12,9 @@ namespace Backtracking
             //sb.Subsets_Recursive(new int[] { 1, 2, 3 });
             // sb.SubsetsWithDup(new int[] {1, 2, 2});
             Permutations pr = new Permutations();
-            pr.Permute(new int[] { 1,2,3});
+            // pr.Permute(new int[] { 1,2,3});
+            PalindromePartitioning pp = new PalindromePartitioning();
+            pp.Partition("aab");
         }
     }
 }
