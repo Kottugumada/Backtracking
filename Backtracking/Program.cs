@@ -9,8 +9,10 @@ namespace Backtracking
             Console.WriteLine("Hello World!");
             Subsets sb = new Subsets();
             // sb.Subsets_Iterative(new int[] { 1,2,3});
-            // sb.Subsets_Recursive(new int[] { 1, 2, 3 });
-            sb.SubsetsWithDup(new int[] {1, 2, 2});
+            //sb.Subsets_Recursive(new int[] { 1, 2, 3 });
+            // sb.SubsetsWithDup(new int[] {1, 2, 2});
+            Permutations pr = new Permutations();
+            pr.Permute(new int[] { 1,2,3});
         }
     }
 }
