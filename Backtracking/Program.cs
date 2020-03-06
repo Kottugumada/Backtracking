@@ -14,7 +14,10 @@ namespace Backtracking
             Permutations pr = new Permutations();
             // pr.Permute(new int[] { 1,2,3});
             PalindromePartitioning pp = new PalindromePartitioning();
-            pp.Partition("aab");
+            // pp.Partition("aabccd");
+            NQueens nq = new NQueens();
+            NQueens_Attempt2 nq2 = new NQueens_Attempt2();
+            nq2.SolveNQueens(4);
         }
     }
 }
