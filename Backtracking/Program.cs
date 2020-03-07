@@ -17,7 +17,9 @@ namespace Backtracking
             // pp.Partition("aabccd");
             NQueens nq = new NQueens();
             NQueens_Attempt2 nq2 = new NQueens_Attempt2();
-            nq2.SolveNQueens(4);
+            // nq2.SolveNQueens(4);
+            LetterCombinationsPhoneNumbers lq = new LetterCombinationsPhoneNumbers();
+            lq.LetterCombinations("23");
         }
     }
 }
