@@ -38,7 +38,7 @@ namespace Backtracking
         public IList<IList<int>> Subsets_Recursive(int[] nums)
         {
             List<IList<int>> res = new List<IList<int>>();
-            Array.Sort(nums);
+            // Array.Sort(nums);
             Backtrack_Recursive(res, new List<int>(), nums, 0);
             return res;
         }

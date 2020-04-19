@@ -14,7 +14,7 @@ namespace Backtracking
         public IList<IList<int>> CombinationSum(int[] candidates, int target)
         {
             IList<IList<int>> res = new List<IList<int>>();
-            Array.Sort(candidates);
+            // Array.Sort(candidates);
             Backtracking_CombinationSum(res, new List<int>(), candidates, target, 0);
             return res;
         }

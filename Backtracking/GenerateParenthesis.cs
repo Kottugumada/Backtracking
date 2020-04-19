@@ -4,6 +4,11 @@ namespace Backtracking
 {
     public class Parenthesis
     {
+        /// <summary>
+        /// https://leetcode.com/problems/generate-parentheses/
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
         public IList<string> GenerateParenthesis(int n)
         {
             IList<string> res = new List<string>();

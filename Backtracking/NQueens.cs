@@ -5,6 +5,11 @@ namespace Backtracking
 {
     public class NQueens
     {
+        /// <summary>
+        /// https://leetcode.com/problems/n-queens/
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
         public IList<IList<string>> SolveNQueens(int n)
         {
             // fill the board with '.'
