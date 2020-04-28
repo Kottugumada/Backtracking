@@ -73,6 +73,7 @@ namespace Backtracking
                 else
                 {
                     DFS(res, path.Append("+").Append(curr), num, i + 1, target, eval + curr, curr);
+                    DFS(res, path.Append("+").Append(curr), num, i + 1, target, eval + curr, curr);
                     path.Length = len;
                     DFS(res, path.Append("-").Append(curr), num, i + 1, target, eval - curr, -curr);
                     path.Length = len;
